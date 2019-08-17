@@ -15,48 +15,55 @@
        </div>
        <div class = "row">
           <div class="col-lg-3 col-md-2 d-none d-md-block">
-          	<nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
-            <ul class="nav sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="#">
-                       Brand
-                    </a>
-                </li>
-                <li>
-                    <a href="#">Home</a>
+        <nav id="sidebar" class="">
+            <div class="sidebar-header">
+                <h3>Menú</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+               
+                <li class="active">
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li>
+                            <a href="#">Home 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Home 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Home 3</a>
+                        </li>
+                    </ul>
                 </li>
                 <li>
                     <a href="#">About</a>
                 </li>
                 <li>
-                    <a href="#">Events</a>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li>
+                            <a href="#">Page 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 3</a>
+                        </li>
+                    </ul>
                 </li>
                 <li>
-                    <a href="#">Team</a>
-                </li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Works <span class="caret"></span></a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li class="dropdown-header">Dropdown heading</li>
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
-                  </ul>
-                </li>
-                <li>
-                    <a href="#">Services</a>
+                    <a href="#">Portfolio</a>
                 </li>
                 <li>
                     <a href="#">Contact</a>
                 </li>
-                <li>
-                    <a href="https://twitter.com/maridlcrmn">Follow me</a>
-                </li>
             </ul>
         </nav>
-          </div>
+    </div>
+
+			
           <div class="col-lg-9 bg-success text-center col-md-10 col-12">
             <div class = "row">
             <div class = "col-12 bg-primary text-center">Quiénes son ustedes, información de contacto, social media, etc</div>
