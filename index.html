@@ -5,21 +5,21 @@
 	<link rel = "stylesheet" href = "estilos.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Web Personal</title>
 </head>
 <body>
 	<div class= "container-fluid" >
        <div class = "row">
-           <div id="home" class="col-lg-12">
+           <div id="home" class="col-12">
            	<img src="./media/banner.png" class="img-fluid rounded mx-auto d-block" alt="Responsive image">
            </div>
        </div>
        <div class = "row">
-          <div class="col-lg-3 col-md-2 d-none d-md-block">
+          <div class="col-lg-3 d-none d-md-block">
           	<!--Me guié de esta pagina: https://bootstrapious.com/p/bootstrap-sidebar -->
-        	<nav id="sidebar" class="">
+        	<nav id="sidebar">
             	<div class="sidebar-header">
-                	<h3>Menú</h3>
+                	<h2>Menú</h2>
             	</div>
 
             	<ul class="list-unstyled components">
@@ -28,20 +28,20 @@
                     	<a href="#home">Home</a>
                 	</li>
 	                <li>
-	                    <a href="#informacionAcademica">Academic Information</a>
+	                    <a href="#panelinfo">Academic Information</a>
 	                </li>
 	                <li>
-	                    <a href="#">Portfolio</a>
+	                    <a href="#paneladicional">More about me</a>
 	                </li>
 	                <li>
-	                    <a href="#">Contact</a>
+	                    <a href="#footer">Contact</a>
 	                </li>
             	</ul>
         	</nav>
     	</div>
 
 			
-          <div class="col-lg-9 text-center col-md-10 col-12" >
+          <div class="col-lg-9 text-center col-12" >
             <div class = "row">
             <div class = "col-12">
             
@@ -86,7 +86,8 @@
 
                </div>
             </div>
-       <div class="row">
+
+       <div id="paneladicional" class="row">
            	<div  class= "col-12">
            	<br><h1> More about me</h1><br>
            	</div>
@@ -95,92 +96,116 @@
 		<div class="row">
 	
 		
-<div class="col-lg-4 col-md-12 mb-4">
-<!--Me guié de esta página https://mdbootstrap.com/plugins/jquery/gallery/ -->
-    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg" role="document">
-      
-        <div class="modal-content">
-          <div class="modal-body mb-0 p-0">
-            <div class="embed-responsive embed-responsive-16by9 ">
-              <iframe class="embed-responsive-item" src="./media/videocucuta.mp4?autoplay=false" autoplay="false" muted="true" ></iframe>
-            </div>
-          </div>
-          <div class="modal-footer justify-content-center">
-            <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <a><img class="img-fluid z-depth-1" src="./media/cucuta.jpg" alt="Responsive image"
-        data-toggle="modal" data-target="#modal1">
-    <br>
-    <br>
-	<h3>Este es el video </h3>
-    </a>
+			<div class="col-lg-4 col-md-12 mb-4">
+			<!--Me guié de esta página https://mdbootstrap.com/plugins/jquery/gallery/ -->
+			    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			      <div class="modal-dialog modal-lg" role="document">
+			      
+			        <div class="modal-content">
+			          <div class="modal-body mb-0 p-0">
+			            <div class="embed-responsive embed-responsive-16by9 ">
+			              <iframe class="embed-responsive-item" src="./media/videocucuta.mp4?autoplay=false" autoplay="false" muted="true" ></iframe>
+			            </div>
+			          </div>
+			          <div class="modal-footer justify-content-center">
+			            <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+			          </div>
+			        </div>
+			      </div>
+			    </div>
+			    <a><img class="img-fluid z-depth-1" src="./media/cucuta.jpg" alt="Responsive image"
+			        data-toggle="modal" data-target="#modal1">
+			    <br>
+			    <br>
+				<h3 class="my-3">I am from Cúcuta that is a very beautiful city.
+					The most part of my family lives there. If you 
+					want click on the image to see more of my city.</h3>
+			    </a>
 
-  </div>
+			  </div>
 
-		<div class="col-lg-4 col-md-12 mb-4">
+			<div class="col-lg-4 col-md-12">
 		      <figure >
-		        <a class="black-text" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(121).jpg"
-		          data-size="1600x1067">
-		          <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(121).jpg"
-		            class="img-fluid">
-		          <h3 class="text-center my-3">Photo title</h3>
+		        <a class="black-text" data-size="1600x1067">
+		          <img alt="picture" src="./media/img1.jpg" class="img-fluid" >
+		          <br>
+		          <br>
+		          <h3 class="my-3">I like studying Systems Engineering
+		          	because it is very interesting how we can solve 
+		          	problems with technology.
+		          </h3>
 		        </a>
 		      </figure>
-		</div>
-		<div class="col-lg-4 col-md-12 mb-4">
+			</div>
+			<div class="col-lg-4 col-md-12">
+			<!--Icons made https://www.flaticon.es/autores/flat-icons"-->
 		      <figure >
-		        <a class="black-text" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(121).jpg"
-		          data-size="1600x1067">
-		          <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(121).jpg"
-		            class="img-fluid">
-		          <h3 class="text-center my-3">Photo title</h3>
+		      	<a class="black-text"  data-size="1600x1067">
+		          <img alt="picture" src="./media/img2.jpg" class="img-fluid"  >
+		          <br>
+		          <br>
+		          <br>
+		          <h3 class="text-center my-3">I am an organized and responsable person</h3>
 		        </a>
 		      </figure>
-		</div>
+			</div>
 		</div>
 
 		<div class="row">
 	
-		<div class="col-lg-4 col-md-12 mb-4">
-			<figure >
-	        <a class="black-text" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(121).jpg"
-	          data-size="1600x1067">
-	          <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(121).jpg"
-	            class="img-fluid">
-	          <h3 class="text-center my-3">Photo title</h3>
-	        </a>
-	      </figure>
-		</div>
-		<div class="col-lg-4 col-md-12 mb-4">
-		      <figure >
-		        <a class="black-text" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(121).jpg"
-		          data-size="1600x1067">
-		          <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(121).jpg"
+			<div class="col-lg-4 col-md-12">
+				<figure >
+		        <a class="black-text" data-size="1600x1067">
+		          <img alt="picture" src="./media/img3.jpg"
 		            class="img-fluid">
-		          <h3 class="text-center my-3">Photo title</h3>
+		          <br>
+		          <br>
+		          <h3 class="text-center my-3">I have worked in group many times and we 
+		          have do interesting projects. For example the last semester 
+		      	  we design one of the best software architectures.</h3>
 		        </a>
-		      </figure>
-		</div>
-		<div class="col-lg-4 col-md-12 mb-4">
-		      <figure >
-		        <a class="black-text" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(121).jpg"
-		          data-size="1600x1067">
-		          <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(121).jpg"
-		            class="img-fluid">
-		          <h3 class="text-center my-3">Photo title</h3>
-		        </a>
-		      </figure>
-		</div>
+		      	</figure>
+			</div>
+			<div class="col-lg-4 col-md-12">
+			      <figure >
+			        <a class="black-text" data-size="1600x1067">
+			          <img alt="picture" src="./media/img4.png"
+			            class="img-fluid">
+			          <h3 class="text-center my-3">So far the work experience 
+			          I have is not in my major. I once worked in an office 
+			      		as a accounting assistant.</h3>
+			        </a>
+			      </figure>
+			</div>
+			<div class="col-lg-4 col-md-12">
+			      <figure >
+			        <a class="black-text" data-size="1600x1067">
+			          <img alt="picture" src="./media/img5.jpg"
+			            class="img-fluid">
+			          <h3 class="text-center my-3">I would like to teach other people 
+			          about everything I know.</h3>
+			        </a>
+			      </figure>
+			</div>
 		</div>	
 
+	</div>
+</div>
+
+
        <div id = "footer" class = "row">
-          <div class="col-lg-12 text-center">16</div>
+          <div class="col-12">
+          	<br>
+			<h4>Contact Information</h4>
+			<a href="https://www.facebook.com/dianyyisel.quinteroperozo" target="_blank" class="btn-social btn-facebook"><i class="fa fa-facebook"></i></a>
+      		<a href="https://www.instagram.com/diany.quintero/" target="_blank" class="btn-social btn-instagram"><i class="fa fa-instagram"></i></a>
+			<a href="https://github.com/dianyQuintero" target="_blank" class="btn-social btn-github"><i class="fa fa-github-alt"></i></a>
+			<a href="mailto:dy.quintero@uniandes.edu.co" target="_blank" class="btn-social btn-email"><i class="fa fa-envelope"></i></a>
+          </div>
        </div>
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
