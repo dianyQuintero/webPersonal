@@ -5,6 +5,18 @@ h1{
     text-align: center;
 }
 
+h3{
+
+    color: #000;
+    background: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 350;
+    line-height: 1.2em;
+    margin: 0px;
+}
+
+
 a, a:hover, a:focus {
     color: inherit;
     text-decoration: none;
