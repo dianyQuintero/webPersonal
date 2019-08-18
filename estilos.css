@@ -1,10 +1,6 @@
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 
-p {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.1em;
-    font-weight: 300;
-    line-height: 1.7em;
+h1{
     color: #000;
 }
 
@@ -60,15 +56,35 @@ a.btn-social,
     background-color: #000;
 }
 
+
 #panelPresentacion{
 
     color: #000;
     background: #fff;
     font-family: 'Poppins', sans-serif;
-    font-size: 2.1em;
+    font-size: 2.2em;
     font-weight: 350;
+    line-height: 1.7em;
+    margin: 0px;
+}
+
+#panelinfo{
+    background: #ff9f97;
+
+}
+
+#informacionAcademica{
+
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    font-weight: 300;
     line-height: 1.0em;
     margin: 0px;
+}
+
+#footer{
+    background: #ff9f97;
 }
 
 #sidebar {
